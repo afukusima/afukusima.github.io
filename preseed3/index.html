@@ -42,24 +42,87 @@
         text-align: center;
         border-top: 3px solid #c0c0c0;
     }
+    
+    #addl{
+        background: #dcdcdc;
+        width: 100%;
+        height: 40px;
+        float:right;
+        position: fixed;
+        font-size: 30;
+        top: 0;
+        text-align: center;
+        border-bottom: 3px solid #c0c0c0;
+        z-index: 998;
+        
+    }
+    #aikonl{
+        background: #dcdcdc;
+        width: 20%;
+        height: 40px;
+        float: left;
+        position: fixed;
+        font-size: 30;
+        z-index: 999;
+        top: 0;
+        text-align: center;
+        border-bottom: 3px solid #c0c0c0;
+    }
+    
+    #aikon img {
+        padding: 10px 0;
+    }
+    
+    #add{
+        background: #dcdcdc;
+        width: 100%;
+        height: 40px;
+        float:left;
+        position: fixed;
+        font-size: 30;
+        bottom: 0;
+        text-align: center;
+        border-top: 3px solid #c0c0c0;
+        z-index: 998;
+        
+    }
+    #aikon{
+        background: #dcdcdc;
+        width: 20%;
+        height: 40px;
+        float: right;
+        position: fixed;
+        font-size: 30;
+        z-index: 999;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        border-top: 3px solid #c0c0c0;
+    }
+    
 </style>
 
 <body>
     <div id="header">
-        <a href="file:///C:/git/afukusima.github.io/preseed2/index.html">連絡先</a>
+        <div id="addl" align="center"><a href="file:///C:/git/afukusima.github.io/preseed2/index.html">連絡先</a>
+        </div>
+        <div id="aikonl">
+            <img src="larrow.png" width="30" height="30" align="left">
+        </div>
     </div>
     <div id="menu">
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
-                変更</a></div>
+            変更</a>
+            </div>
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -67,7 +130,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -75,7 +138,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -83,7 +146,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -91,7 +154,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -99,7 +162,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -107,7 +170,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -115,7 +178,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -123,7 +186,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -131,7 +194,7 @@
         </div>
         <div class="menu">
             名前<br>
-            <a>%adress%</a><br>
+            <a>%name%</a><br>
             メールアドレス<br>
             <a>%adress%</a><br>
             <div align="right"><a href="file:///C:/git/afukusima.github.io/preseed/index.html" >
@@ -139,6 +202,9 @@
         </div>
     </div>
     <div id="footer">
-        <a href="file:///C:/git/afukusima.github.io/preseed/index.html">新規連絡先追加</a>
+        <div id="add" align="center"><a href="file:///C:/git/afukusima.github.io/preseed/index.html">新規連絡先追加</a></div>
     </div>
+        <div id="aikon">
+            <img src="arrow.png" width="30" height="30" align="right">
+        </div>
 </body>

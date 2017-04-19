@@ -7,7 +7,33 @@
         margin: 0;
     }
     
-    .menu{
+    #cir{
+        border-radius: 100%;
+        background-color:#ffffff;
+        margin: 25%;
+        height: 200px;
+        width: 200px;
+        border-bottom: 2px solid #808080;
+    }
+    #cir2{
+        border-radius: 25%;
+        background-color:#000000;
+        float:right;
+        height: 20px;
+        width: 30px;
+        border-bottom: 2px solid #808080;
+        z-index: 998;
+    }
+     #cir3{
+        border-radius: 100%;
+        background-color:#ffffff;
+        height: 20px;
+        width: 20px;
+        border-bottom: 2px solid #808080;
+        z-index: 999;
+    }
+    
+    #menu{
         background: #dcdcdc;
         width: 100%;
         padding: 10px 0;
@@ -16,7 +42,7 @@
         text-align: left;
     }
     
-       #add{
+    #add{
         background: #dcdcdc;
         width: 80%;
         height: 40px;
@@ -41,20 +67,24 @@
     }
     
     #menu{
-        margin-top: 300px;
         margin-bottom: 40px;
         padding: 10px 0;
     }
     #aikon img {
         padding: 10px 0;
     }
-
 </style>
 
 <body>
+    <div id="cir">
+    </div>
     <div id="menu">
         <div class="menu">
-            転倒検出
+        転倒検出
+        <div id="cir2">
+            <div id="cir3" >
+            </div>
+        </div>
         </div>
         <div id="add"><a href="file:///C:/git/afukusima.github.io/preseed3/index.html">連絡先</a></div>
         <div id="aikon">
